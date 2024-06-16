@@ -19,7 +19,7 @@ namespace Plugins.ManuallyReload
          * 如果不小心LockReloadAssemblies3次 但是只UnlockReloadAssemblies了一次 那么还是不会重载 必须也要但是只UnlockReloadAssemblies3次
          */
         public const string logYellow = "<color=yellow>{0}</color>";
-        public const string logCyan = "<color=cyan>{0}</color>";
+        public const string logCyan = "<color=#00ffff>{0}</color>";
         public const string logWhite = "<color=White>{0}</color>";
 
         const string menuRealodDomain = "Tools/Reload Domain/Unlock Reload _F5"; //菜单快捷键 f5
