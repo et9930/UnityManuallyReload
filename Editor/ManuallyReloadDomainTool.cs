@@ -156,6 +156,7 @@ namespace Plugins.ManuallyReload
         {
             if (!ManuallyReloadSetting.Instance.IsEnableManuallyReload) return;
             listAssembly.Clear();
+            compileSW.Reset();
             compileSW.Start();
             Debug.LogFormat(logYellow, "Beging Compile...");
         }
